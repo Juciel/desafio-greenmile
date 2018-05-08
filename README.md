@@ -59,7 +59,7 @@ Considerações:
 
 ## Solução do desafio
 
-O desafio foi resolvida de acordo com as informações passadas, utilizando o Spring Boot e Spring Batch.
-O Spring Batch foi utilizado como um job que é executado toda vez que a aplicação é executada.
-O Spring Batch é responsavel por ler o arquivo .csv que está no resource da aplicação e grava os dados na base de dados da seguinte forma: para cada linha do csv é verificado se o projeto já existe na base de dados senão é criado um projeto e uma lista de usuários que faz parte daquele projeto
-O banco de dados utilizado para aplicação foi o h2database que em tempo de execução cria as tabelas de acordo com as entidades mapiadas
+O desafio foi resolvido de acordo com as informações passadas, utilizando o Spring Boot e Spring Batch. 
+O Spring Batch foi utilizado como um job que é executado toda vez que a aplicação é executada. O Spring Batch é responsável por ler o arquivo gm-challenge.csv que está no resource da aplicação e grava os dados na base de dados da seguinte forma: para cada linha do csv é verificado se o projeto já existe na base de dados, senão é criado um projeto e uma lista de usuários que faz parte daquele projeto.
+O banco de dados utilizado para aplicação foi o h2database, que em tempo de execução cria as tabelas de acordo com as entidades mapeadas.
+
